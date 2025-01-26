@@ -1,0 +1,154 @@
+* {
+margin: 0;
+}
+
+html {
+background-color: #1F2937;
+font-family: Helevetica, sans-serif;
+}
+
+.header-container, .header-section-main, .mid-container {
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.header-container {
+color: white;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
+
+.header-links {
+display: flex;
+gap: 25px;
+font-size: 13px;
+}
+
+.placeholder {
+display: flex;
+background-color: #E5E7EB;
+height: 200px;
+width: 800px;
+align-items: center;
+justify-content: center;
+margin-left: 35px;
+margin-bottom: 75px;
+}
+
+button {
+background-color: #3882F6;
+border-radius: 25px;
+margin-top: 15px;
+padding: 10px 20px;
+font-weight: 900;
+color: white;
+}
+
+.header-section-main {
+margin-top: 80px;
+display: flex;
+color: white;
+}
+
+.Hero-Main-Text{ 
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 900;
+}
+
+.white-space {
+background-color: white;  
+height: 400px;
+margin-top: 25px;
+align-items: center;
+}
+
+.white-space, .quote-container {
+display: flex;
+flex-direction: column;
+}
+
+.box-container {
+display: flex;
+margin-top: 35px;
+gap: 50px;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+.mid-container {
+display: flex;
+}
+
+.box{
+border: 3px solid #3882F6;
+width: 150px;
+height: 150px;
+border-radius: 10px;
+margin-bottom: 12px;
+}
+
+.box-main {
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+font-size: 15px;
+font-style: italic;
+}
+
+.quote-container {
+height: 450px;
+background-color: #E5E7EB;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-style: italic;
+color: #1F2937;
+}
+
+.quote {
+margin-left: 200px;
+margin-right: 200px; 
+line-height: 50px;
+}
+
+.thor {
+display: flex;
+justify-content: flex-end;
+font-weight: 800;
+margin-top: 5px;
+font-size: 25px;
+}
+
+.call-to-action-container{
+background-color: white;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.blue-box-container{
+background-color: #3882F6; 
+padding: 25px 100px;
+color: white;
+display: flex;
+border-radius: 10px;
+gap: 100px;
+}
+
+.footer {
+background-color: #1F2937;
+height: 65px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+}
